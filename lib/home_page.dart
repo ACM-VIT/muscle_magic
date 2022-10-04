@@ -27,13 +27,13 @@ class HomePageScreen extends StatelessWidget {
             fit: BoxFit.cover,
           ),
         ),
-        child: Column(
+        child: ListView(
           children: <Widget>[
             Padding(
               padding: const EdgeInsets.only(top: 400, left: 20, right: 20),
               child: ElevatedButton(
                 onPressed: () {
-                  print("nuts2");
+                 
                 },
                 style: ElevatedButton.styleFrom(
                     elevation: 20,
@@ -59,7 +59,7 @@ class HomePageScreen extends StatelessWidget {
                 selectedFontSize: 20,
                 unselectedFontSize: 10,
                 onTap: (value) {
-                  print("nuts");
+                 
                 },
                 items: const [
                   BottomNavigationBarItem(
