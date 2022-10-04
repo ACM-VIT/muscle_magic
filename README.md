@@ -1,6 +1,7 @@
 # muscle_magic
 
-A new Flutter project.
+Muscle Magic is a simple flutter application which lets you log your workouts and check your progress with other users.
+
 
 ## Getting Started
 
