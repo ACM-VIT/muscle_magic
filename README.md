@@ -6,7 +6,8 @@
 <h2 align="center"> MUSCLE MAGIC </h2>
 
 <p align="center"> 
-Short description about the project.
+Muscle magic is an open sourcec flutter application that handles and manages your workouts and exercises.
+The app is written in dart.
 </p>
 
 <p>
