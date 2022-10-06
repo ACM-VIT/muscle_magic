@@ -56,9 +56,8 @@ For additional guidelines, refer to [participation rules](https://hacktoberfest.
 ---
 
 -_domain specific guidelines here_-
-
+  
 ---
-
 ## Overview
 
 The overview starts here. Random text about the project, motive, how, what, why etc.
@@ -78,7 +77,6 @@ git merge
 ```
 
 ---
-
 ## Authors
 
 **Authors:** <!-- [author1's name](link to their github profile), [author2's name](link to their github profile) .. -->  
