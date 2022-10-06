@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:muscle_magic/screens/excercise_screen.dart';
 import 'home_page.dart';
 import 'profile_page.dart';
 
@@ -13,7 +14,7 @@ class Test extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: HomePage(),
+      home: ExcerciseScreen(),
     );
   }
 }
