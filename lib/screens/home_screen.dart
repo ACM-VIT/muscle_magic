@@ -1,20 +1,13 @@
 import 'package:flutter/material.dart';
 
-class HomePage extends StatelessWidget {
-  const HomePage({Key? key}) : super(key: key);
+class HomeScreen extends StatefulWidget {
+  const HomeScreen({Key? key}) : super(key: key);
 
   @override
-  Widget build(BuildContext context) {
-    return const MaterialApp(
-      debugShowCheckedModeBanner: false,
-      home: HomePageScreen(),
-    );
-  }
+  State<HomeScreen> createState() => _HomeScreenState();
 }
 
-class HomePageScreen extends StatelessWidget {
-  const HomePageScreen({Key? key}) : super(key: key);
-
+class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -32,9 +25,7 @@ class HomePageScreen extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.only(top: 400, left: 20, right: 20),
               child: ElevatedButton(
-                onPressed: () {
-                 
-                },
+                onPressed: () {},
                 style: ElevatedButton.styleFrom(
                     elevation: 20,
                     minimumSize: const Size.fromHeight(50),
@@ -58,9 +49,7 @@ class HomePageScreen extends StatelessWidget {
                 unselectedItemColor: Colors.white.withOpacity(.60),
                 selectedFontSize: 20,
                 unselectedFontSize: 10,
-                onTap: (value) {
-                 
-                },
+                onTap: (value) {},
                 items: const [
                   BottomNavigationBarItem(
                     label: "Home",
