@@ -79,5 +79,5 @@ git merge
 ---
 ## Authors
 
-**Authors:** <!-- [author1's name](link to their github profile), [author2's name](link to their github profile) .. -->  
-**Contributors:** <!-- Generate contributors list using this link - https://contributors-img.web.app/preview -->
+**Authors:** <!-- [Harsh V](https://github.com/Harsh-Vipin), [author2's name](link to their github profile) .. -->  
+
