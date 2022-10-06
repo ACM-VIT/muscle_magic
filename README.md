@@ -80,7 +80,7 @@ git merge
 ---
 ## Authors
 
-**Authors:** 
+
 - [Harsh V](https://github.com/Harsh-Vipin)
 - [Aryan C](https://github.com/AryanC19)
 - [Agneya Anoop](https://github.com/AgneyaAnoop)
