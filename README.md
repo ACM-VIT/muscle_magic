@@ -61,7 +61,7 @@ For additional guidelines, refer to [participation rules](https://hacktoberfest.
 ---
 ## Overview
 
-The overview starts here. Random text about the project, motive, how, what, why etc.
+The Muscle Magic app is a workout/exercise app made using Flutter. The app allows you to train your body according to your preferred muscle group by selecting a workout plan provided in the app for each muscle group. The app presents a variety of workouts that can help you train your chosen muscle group after selecting the workout plan. This app also includes a progress tracker which helps you track the progress made after each workout session.
 
 ---
 
