@@ -79,5 +79,7 @@ git merge
 ---
 ## Authors
 
-**Authors:** <!-- [Harsh V](https://github.com/Harsh-Vipin), [author2's name](link to their github profile) .. -->  
+**Authors:** 
+- [Harsh V](https://github.com/Harsh-Vipin)
+- [Aryan C](https://github.com/AryanC19)
 
