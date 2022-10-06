@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:muscle_magic/screens/excercise_screen.dart';
 import 'package:muscle_magic/screens/home_screen.dart';
-import 'package:muscle_magic/screens/profile_page.dart';
+import 'package:muscle_magic/screens/profile_screen.dart';
 
 class MainScreen extends StatefulWidget {
   const MainScreen({Key? key}) : super(key: key);
@@ -14,7 +14,7 @@ class _MainScreenState extends State<MainScreen> {
   List pages = [
     const HomeScreen(),
     const ExcerciseScreen(),
-    const ProfilePage()
+    const ProfileScreen()
   ];
 
   int currentIndex = 0;

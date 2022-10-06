@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:muscle_magic/screens/excercise_screen.dart';
 import 'screens/main_screen.dart';
-import 'screens/profile_page.dart';
+import 'screens/profile_screen.dart';
 
 void main() {
   runApp(const Test());
