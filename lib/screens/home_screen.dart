@@ -1,17 +1,13 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/src/foundation/key.dart';
+import 'package:flutter/src/widgets/framework.dart';
 
-class HomeScreen extends StatefulWidget {
+class HomeScreen extends StatelessWidget {
   const HomeScreen({Key? key}) : super(key: key);
 
   @override
-  State<HomeScreen> createState() => _HomeScreenState();
-}
-
-class _HomeScreenState extends State<HomeScreen> {
-  @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      backgroundColor: Colors.black,
+    return Scaffold(backgroundColor: Colors.black,
       body: Container(
         decoration: const BoxDecoration(
           image: DecorationImage(
@@ -40,43 +36,9 @@ class _HomeScreenState extends State<HomeScreen> {
                 ),
               ),
             ),
-            Padding(
-              padding: const EdgeInsets.only(top: 350),
-              child: BottomNavigationBar(
-                type: BottomNavigationBarType.fixed,
-                backgroundColor: Color(0xFF961414),
-                selectedItemColor: Colors.white,
-                unselectedItemColor: Colors.white.withOpacity(.60),
-                selectedFontSize: 20,
-                unselectedFontSize: 10,
-                onTap: (value) {},
-                items: const [
-                  BottomNavigationBarItem(
-                    label: "Home",
-                    icon: Icon(Icons.home),
-                  ),
-                  BottomNavigationBarItem(
-                    label: "Board",
-                    icon: Icon(Icons.list_alt_outlined),
-                  ),
-                  BottomNavigationBarItem(
-                    label: "Statistics",
-                    icon: Icon(Icons.leaderboard),
-                  ),
-                  BottomNavigationBarItem(
-                    label: "Profile",
-                    icon: Icon(Icons.manage_accounts),
-                  ),
-                ],
-                unselectedLabelStyle:
-                    const TextStyle(fontSize: 10, fontFamily: 'Poppins'),
-                selectedLabelStyle:
-                    const TextStyle(fontSize: 18, fontFamily: 'Poppins'),
-              ),
-            ),
+            
           ],
         ),
-      ),
-    );
+      ),);
   }
 }
