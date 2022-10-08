@@ -56,7 +56,7 @@ For additional guidelines, refer to [participation rules](https://hacktoberfest.
 
 ---
 
--_domain specific guidelines here_-
+
   
 ---
 ## Overview
