@@ -63,6 +63,17 @@ For additional guidelines, refer to [participation rules](https://hacktoberfest.
 
 Muscle Magic is a simple exercise app made using flutter.The app allows you to train your body according to your preferred muscle group by selecting from a variety of workout plans for each muscle.It includes a progress tracker which helps you track your progress after each workout session.
 
+It's not just an ordinary exercise app. It comes with cool extra features like:-
+
+An enormous dataset of exercises that you can choose to your preference.
+A Stats section showing your workout stats and your body stats.
+Multiple workout plans for each week.
+A voice assistant that lets you log your sets with a voice command.
+Sharing your workout plans with friends and other people.
+See popular workout plans that other people are doing.
+
+
+
 
 ---
 
