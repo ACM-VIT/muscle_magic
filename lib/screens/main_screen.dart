@@ -31,11 +31,12 @@ class _MainScreenState extends State<MainScreen> {
       body: pages[currentIndex],
      bottomNavigationBar: BottomNavigationBar(
                 type: BottomNavigationBarType.fixed,
-                backgroundColor: Color(0xFF961414),
-                selectedItemColor: Colors.white,
-                unselectedItemColor: Colors.white.withOpacity(.60),
-                selectedFontSize: 20,
-                unselectedFontSize: 10,
+                backgroundColor: const Color(0xFF102A43),
+                selectedItemColor: Color(0xfff0f4f8),
+                unselectedItemColor:Color(0xfff0f4f8) .withOpacity(.2),
+                selectedFontSize: 14,
+                unselectedFontSize: 12,
+                iconSize: 22,
                 currentIndex: currentIndex,
                 onTap: onTap,
                 items: const [
@@ -54,9 +55,9 @@ class _MainScreenState extends State<MainScreen> {
                  
                 ],
                 unselectedLabelStyle:
-                    const TextStyle(fontSize: 10, fontFamily: 'Poppins'),
+                    const TextStyle(fontSize: 12, fontFamily: 'Poppins'),
                 selectedLabelStyle:
-                    const TextStyle(fontSize: 18, fontFamily: 'Poppins'),
+                    const TextStyle(fontSize: 14, fontFamily: 'Poppins'),
               ),
     );
   }
