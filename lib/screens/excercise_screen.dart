@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import '../widgets/exercise_tile.dart';
 
 const list = [
   "squat",
@@ -8,7 +9,7 @@ const list = [
   "deadlift",
   "crunches",
   "dumbell row",
-   "squat",
+  "squat",
   "deadlift",
   "pull up",
   "deadlift",
@@ -22,22 +23,17 @@ class ExcerciseScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return  Scaffold(
-
-        body: ListView.builder(
+    return Scaffold(
+      body: ListView.builder(
         itemBuilder: (context, index) {
           return Padding(
             padding: const EdgeInsets.all(20.0),
-            child: ListTile(
-              title: Text(list[index],style: const TextStyle(color: Colors.white,),),
-              leading: Image.asset(img[0]),
-              tileColor: const Color(0xFF243B53),
-              
-            ),
+            child: ExerciseTile(index: index),
           );
         },
         itemCount: list.length,
-      ),);
+      ),
+    );
   }
 }
 
