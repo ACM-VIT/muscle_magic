@@ -7,6 +7,12 @@ const list = [
   "pull up",
   "deadlift",
   "crunches",
+  "dumbell row",
+   "squat",
+  "deadlift",
+  "pull up",
+  "deadlift",
+  "crunches",
   "dumbell row"
 ];
 const img = ["assets/squat.png"];
@@ -17,14 +23,16 @@ class ExcerciseScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return  Scaffold(
-        // backgroundColor: Colors.black,
+
         body: ListView.builder(
         itemBuilder: (context, index) {
           return Padding(
             padding: const EdgeInsets.all(20.0),
             child: ListTile(
               title: Text(list[index],style: const TextStyle(color: Colors.white,),),
-              leading: Image.asset(img[0])
+              leading: Image.asset(img[0]),
+              tileColor: const Color(0xFF243B53),
+              
             ),
           );
         },
