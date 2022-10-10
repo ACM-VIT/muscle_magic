@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import '../widgets/circular_progress_bar.dart';
+
 const list = [
   "squat",
   "deadlift",
@@ -15,20 +17,21 @@ class ExcerciseScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      backgroundColor: Colors.black,
-      body: ListView.builder(
+    return  Scaffold(
+        backgroundColor: Colors.black,
+        body: ListView.builder(
         itemBuilder: (context, index) {
           return Padding(
             padding: const EdgeInsets.all(20.0),
             child: ListTile(
-              title: Text(list[index],style: TextStyle(color: Colors.white,),),
+              title: Text(list[index],style: const TextStyle(color: Colors.white,),),
               leading: Image.asset(img[0])
             ),
           );
         },
         itemCount: list.length,
-      ),
-    );
+      ),);
   }
 }
+
+
