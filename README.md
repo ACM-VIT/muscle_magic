@@ -10,7 +10,7 @@ Muscle magic is an open source flutter application that handles and manages your
 The app is written in dart.
 </p>
 
-<p>
+<p align="center" >
   <a href="https://acmvit.in/" target="_blank">
     <img alt="made-by-acm" src="https://img.shields.io/badge/MADE%20BY-ACM%20VIT-blue?style=for-the-badge" />
   </a>
@@ -20,7 +20,16 @@ The app is written in dart.
 </p>
 
 ---
+<p align="center">Project Status</p>
 
+<p align = "center">
+  <img alt="stars" src="https://img.shields.io/github/stars/ACM-VIT/muscle_magic?color=eb4d4b&style=for-the-badge" />
+  <img alt="forks" src="https://img.shields.io/github/forks/ACM-VIT/muscle_magic?color=7ed6df&style=for-the-badge" />
+  <img alt="issuses" src="https://img.shields.io/github/issues/ACM-VIT/muscle_magic?color=f9ca24&style=for-the-badge" />
+  <img alt="prs" src="https://img.shields.io/github/issues-pr-closed/ACM-VIT/muscle_magic?color=686de0&style=for-the-badge" />
+</p>
+
+---
 ## Submitting a Pull Request
 
 - Fork the repository by clicking the fork button on top right corner of the page
@@ -37,7 +46,8 @@ The app is written in dart.
 - Push to remote. To do this, run
 <pre><code>git push origin [YOUR-BRANCH-NAME]</code></pre>
 - Create a pull request. Go to the target repository and click on the "Compare & pull request" button. **Make sure your PR description mentions which issues you're solving.**
-  <img src="https://drive.google.com/u/1/uc?id=1f9JKAR-kRvCRGxIs_SAvegaYDPx53T9G&export=download"></img>
+
+ <img src="https://drive.google.com/u/1/uc?id=1f9JKAR-kRvCRGxIs_SAvegaYDPx53T9G&export=download"></img>
 - Wait for your request to be accepted.
 
 ---
