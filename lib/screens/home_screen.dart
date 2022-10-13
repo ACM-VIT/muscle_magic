@@ -7,7 +7,8 @@ class HomeScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(backgroundColor: Colors.black,
+    return Scaffold(
+      backgroundColor: Colors.black,
       body: Container(
         decoration: const BoxDecoration(
           image: DecorationImage(
@@ -25,7 +26,7 @@ class HomeScreen extends StatelessWidget {
                 style: ElevatedButton.styleFrom(
                     elevation: 20,
                     minimumSize: const Size.fromHeight(50),
-                    primary: const Color(0xFF961414)),
+                    backgroundColor: const Color(0xFF961414)),
                 child: const Text(
                   "Create workout",
                   style: TextStyle(
@@ -36,9 +37,9 @@ class HomeScreen extends StatelessWidget {
                 ),
               ),
             ),
-            
           ],
         ),
-      ),);
+      ),
+    );
   }
 }
