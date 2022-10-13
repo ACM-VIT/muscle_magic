@@ -26,7 +26,7 @@ class HomeScreen extends StatelessWidget {
                 style: ElevatedButton.styleFrom(
                     elevation: 20,
                     minimumSize: const Size.fromHeight(50),
-                    backgroundColor: const Color(0xFF961414)),
+                    primary: const Color(0xFF961414)),
                 child: const Text(
                   "Create workout",
                   style: TextStyle(
