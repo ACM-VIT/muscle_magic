@@ -215,7 +215,7 @@ packages:
     source: hosted
     version: "2.0.11"
   path_provider_android:
-    dependency: "direct main"
+    dependency: transitive
     description:
       name: path_provider_android
       url: "https://pub.dartlang.org"

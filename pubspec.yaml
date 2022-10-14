@@ -37,7 +37,6 @@ dependencies:
   cupertino_icons: ^1.0.2
   http: ^0.13.5
   cached_network_image: ^3.2.1
-  path_provider_android: ^2.0.11 
 
 dev_dependencies:
   flutter_test:

@@ -1,33 +1,12 @@
-import 'dart:convert';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
-import 'package:muscle_magic/networking/apiKeys.dart';
-import 'package:muscle_magic/networking/api_modal.dart';
-import 'package:http/http.dart' as http;
+import 'package:muscle_magic/networking/fetch_api.dart';
 
 class ExcerciseScreen extends StatefulWidget {
   const ExcerciseScreen({Key? key}) : super(key: key);
 
   @override
   State<ExcerciseScreen> createState() => _ExcerciseScreenState();
-}
-
-Future fetchAPI() async {
-  Uri uri = Uri.parse("https://exercisedb.p.rapidapi.com/exercises");
-  Map<String, String> headers = {
-    "X-RapidAPI-Key": x_Rapid_API_Key,
-    "X-RapidAPI-Host": x_Rapid_API_Host,
-  };
-  final response = await http.get(uri, headers: headers);
-
-  List<ApiModal> excercise = [];
-  var jsonData = jsonDecode(response.body);
-  for (var t in jsonData) {
-    ApiModal album = ApiModal(name: t['name'], gifUrl: t['gifUrl']);
-    excercise.add(album);
-  }
-  print(excercise.length);
-  return excercise;
 }
 
 class _ExcerciseScreenState extends State<ExcerciseScreen> {
