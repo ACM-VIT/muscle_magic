@@ -34,27 +34,28 @@ class _ExcerciseScreenState extends State<ExcerciseScreen> {
                     itemBuilder: ((context, index) {
                       return ListTile(
                         title: Container(
-                          margin: const EdgeInsets.all(8.0),
+                          margin: const EdgeInsets.all(10.0),
                           width: MediaQuery.of(context).size.width,
                           child: Row(
                             children: [
                               CachedNetworkImage(
                                 imageUrl: snapshot.data[index]?.gifUrl,
-                                height: 50,
-                                width: 50,
+                                height: 70,
+                                width: 70,
                                 // placeholder: (context, url) =>
                                 //     const CircularProgressIndicator(),
                                 errorWidget: (context, url, error) =>
                                     const Icon(Icons.error),
                               ),
                               const SizedBox(
-                                width: 20,
+                                width: 24,
                               ),
                               Expanded(
                                 child: Text(
                                   snapshot.data[index]?.name,
                                   style: const TextStyle(
                                     fontWeight: FontWeight.w300,
+                                    fontSize: 20,
                                     color: Colors.white,
                                   ),
                                 ),
