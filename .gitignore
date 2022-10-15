@@ -22,7 +22,7 @@ migrate_working_dir/
 #.vscode/
 
 # API KEYS
-/lib/networking/apiKeys.dart
+/lib/auth/secrets.dart
 
 # Flutter/Dart/Pub related
 **/doc/api/
