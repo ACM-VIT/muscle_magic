@@ -15,7 +15,7 @@ class Test extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: const SplashScreen(),
+      home: SplashScreen(),
       theme: ThemeData(brightness: Brightness.dark),
     );
   }
