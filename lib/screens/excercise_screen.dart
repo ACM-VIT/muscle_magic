@@ -20,7 +20,7 @@ class _ExcerciseScreenState extends State<ExcerciseScreen> {
         child: Column(
           children: [
             FutureBuilder(
-              future: fetchAPI(),
+              //future: fetchAPI(),
               builder: (context, AsyncSnapshot snapshot) {
                 if (snapshot.connectionState == ConnectionState.waiting) {
                   return const Center(
