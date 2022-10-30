@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:muscle_magic/screens/signin_screen.dart';
 import 'package:muscle_magic/screens/splash_screen.dart';
 
 void main() {
@@ -14,7 +13,6 @@ class Test extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: const SplashScreen(),
-      // home : const SignInScreen(), --> StreamBuilder
       theme: ThemeData(brightness: Brightness.dark),
     );
   }
