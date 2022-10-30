@@ -1,5 +1,3 @@
-import "package:flutter/material.dart";
-
 class ApiModal {
   final String name;
   final String gifUrl;

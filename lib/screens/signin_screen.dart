@@ -29,7 +29,7 @@ class _SignInScreenState extends State<SignInScreen> {
           viewportFraction: 1,
           height: MediaQuery.of(context).size.height,
           autoPlayCurve: Curves.fastOutSlowIn,
-          scrollDirection: Axis.horizontal,
+          // scrollDirection: Axis.horizontal,
         ),
       ),
     );
