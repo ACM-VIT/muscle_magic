@@ -16,13 +16,17 @@ class OnBoarding extends StatelessWidget {
         skipFunctionOverride: () {
           Navigator.push(
             context,
-            MaterialPageRoute(builder: (context) => MainScreen()),
+            MaterialPageRoute(
+              builder: (context) => const MainScreen(),
+            ),
           );
         },
         onFinish: () {
           Navigator.push(
             context,
-            MaterialPageRoute(builder: (context) => MainScreen()),
+            MaterialPageRoute(
+              builder: (context) => const MainScreen(),
+            ),
           );
         },
         finishButtonColor: Colors.blueGrey.shade800,
@@ -73,7 +77,7 @@ class OnBoarding extends StatelessWidget {
         speed: 1.8,
         pageBodies: [
           Container(
-            padding: EdgeInsets.symmetric(horizontal: 40),
+            padding: const EdgeInsets.symmetric(horizontal: 40),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.center,
               children: <Widget>[
@@ -82,8 +86,9 @@ class OnBoarding extends StatelessWidget {
                 ),
                 Container(
                   decoration: BoxDecoration(
-                      color: Colors.black54,
-                      borderRadius: BorderRadius.circular(15)),
+                    color: Colors.black54,
+                    borderRadius: BorderRadius.circular(15),
+                  ),
                   alignment: Alignment.center,
                   child: Text(
                     'Measure your progress.',
@@ -99,7 +104,7 @@ class OnBoarding extends StatelessWidget {
             ),
           ),
           Container(
-            padding: EdgeInsets.symmetric(horizontal: 40),
+            padding: const EdgeInsets.symmetric(horizontal: 40),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.center,
               children: <Widget>[
@@ -125,7 +130,7 @@ class OnBoarding extends StatelessWidget {
             ),
           ),
           Container(
-            padding: EdgeInsets.symmetric(horizontal: 40),
+            padding: const EdgeInsets.symmetric(horizontal: 40),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.center,
               children: <Widget>[
